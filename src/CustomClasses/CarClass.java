@@ -2,10 +2,12 @@ package CustomClasses;
 
 public class CarClass {
     //fields
-    String Make;
-    String Model;
-    int ModelYear;
-    String Color;
+    public String Make;
+    public String Model;
+    public int ModelYear;
+    public String Color;
+
+    private double Cost;
 
 
 }
