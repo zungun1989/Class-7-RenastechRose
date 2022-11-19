@@ -9,6 +9,20 @@ public class EmployeeClass {
 
     private String SIN;
 
+    // Constructor
+    public EmployeeClass(){
+
+    }
+    ///this is a constructor
+    ///@param1 is a string variabe that we will use as a Name
+    ///@param2 is a string variable that we will use as a Surname
+    ///@param3 is a string variable that we will use as a Department
+    public EmployeeClass(String Param1, String Param2, String Param3){
+        Name = Param1;
+        Surname = Param2;
+        Department =Param3;
+    }
+
     //Methods
     ///SetEmployeeSIN : This method will set employee's SIN number
     ///@param1 : This is a string type parameter
