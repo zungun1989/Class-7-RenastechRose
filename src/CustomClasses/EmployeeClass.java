@@ -14,7 +14,7 @@ public class EmployeeClass {
 
     }
     ///this is a constructor
-    ///@param1 is a string variabe that we will use as a Name
+    ///@param1 is a string variable that we will use as a Name
     ///@param2 is a string variable that we will use as a Surname
     ///@param3 is a string variable that we will use as a Department
     public EmployeeClass(String Param1, String Param2, String Param3){
@@ -29,6 +29,7 @@ public class EmployeeClass {
 
     //public static  ReturnType MethodName(ParameterType ParameterName...)
      public void SetEmployeeSIN (String Param1){
+
         SIN = Param1;
     }
 
@@ -36,7 +37,8 @@ public class EmployeeClass {
     /// I don't have any parameters
 
     public String GetEmployeeSIN(){
-         return SIN;
+
+        return SIN;
     }
 
 }
