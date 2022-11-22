@@ -27,5 +27,11 @@ public class Topic3_StudentExample {
 
         AnimalClass MyPenguin = new AnimalClass("Penguin", "Bird", "White-Black");
         System.out.println(MyPenguin.AnimalName+" "+ MyPenguin.AnimalType+ " "+MyPenguin.AnimalColor);
+        /*
+        I don't have to type below lines as we are assigning them in Constructor
+        MyPenguin.AnimalName ="Penguin";
+        MyPenguin.AnimalType ="Bird";
+        MyPenguin.AnimalColor ="White-Black";
+         */
     }
 }

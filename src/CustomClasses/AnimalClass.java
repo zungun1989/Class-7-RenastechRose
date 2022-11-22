@@ -32,6 +32,7 @@ public class AnimalClass {
 
 
     public void AMethod (String param3){
+
         System.out.println(param3);
     }
 }
