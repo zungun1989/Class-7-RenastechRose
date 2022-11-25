@@ -6,6 +6,13 @@ public class AnimalClass {
 
     public String AnimalColor;
 
+    public int ID;
+    public int NumberOfLegs;
+
+    public void Eat(){
+
+    }
+
     ///This is a constructor. This will be called when you create Class
     ///@param1 is a String variable and we will use it as AnimalName
     ///@param2 is a String variable and we will use it as AnimalType
