@@ -29,7 +29,7 @@ public class Topic3_AssignmentOperations {
         System.out.println("the b value:"+b);
 
         int theanswer = b - a;
-        System.out.println("the theanswer: "+theanswer);
+        System.out.println("the the answer: "+theanswer);
 
 
     }
