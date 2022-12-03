@@ -26,5 +26,12 @@ public class Topic3_TreeMap {
         System.out.println("++++++++++++++++++++++++");
         System.out.println(ModelYearOfCars.get("Bmw"));
         System.out.println(ModelYearOfCars.getOrDefault("Bmw", -1));
+
+        int Year  =ModelYearOfCars.getOrDefault("Bmw", -1);
+
+        // put(Key, Value) - Inserts the association of a key and a value into the map.
+        // If the key is already present, the new value replaces the old value.
+        ModelYearOfCars.put("Tesla", 2022);
+
     }
 }
